@@ -1,0 +1,8 @@
+Debug
+
+# Eclipse IDE meta and settings folders
+
+.metadata
+.settings
+.cproject
+.project
