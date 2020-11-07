@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to find the largest number between 3 numbers.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -20,7 +21,7 @@ int main(void)
 
 	double num1, num2, num3;
 
-	printf("Enter three numbers: ");
+	printf("%s", "Enter three numbers: ");
 
 	scanf("%lf %lf %lf", &num1, &num2, &num3);
 

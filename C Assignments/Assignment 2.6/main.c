@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to find the sum of natural numbers up to an input integer.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -21,7 +22,7 @@ int main(void)
 	int num, i;
 	long int sum = 0;
 
-	printf("Enter an integer: ");
+	printf("%s", "Enter an integer: ");
 
 	scanf("%i", &num);
 

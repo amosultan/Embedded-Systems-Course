@@ -1,5 +1,6 @@
 /*
- * main.c
+ *  File Name: main.c
+ *	Description: Write a C program of a simple calculator using switch statement.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -22,11 +23,11 @@ int main(void)
 	float num1, num2;
 	double result;
 
-	printf("Enter operator either + or - or * or /: ");
+	printf("%s", "Enter an operator, either +, -, * or /: ");
 
 	scanf("%c", &operator);
 
-	printf("\nEntere two operands: ");
+	printf("%s", "\nEntere two operands: ");
 
 	scanf("%f %f", &num1, &num2);
 
@@ -34,22 +35,22 @@ int main(void)
 	{
 		case '+':
 			result = num1 + num2;
-			printf("%f %c %f = %lf", num1, operator, num2, result);
+			printf("%.2f %c %.2f = %.2lf", num1, operator, num2, result);
 			break;
 
 		case '-':
 			result = num1 - num2;
-			printf("%f %c %f = %lf", num1, operator, num2, result);
+			printf("%.2f %c %.2f = %.2lf", num1, operator, num2, result);
 			break;
 
 		case '*':
 			result = num1 * num2;
-			printf("%f %c %f = %lf", num1, operator, num2, result);
+			printf("%.2f %c %.2f = %.2lf", num1, operator, num2, result);
 			break;
 
 		case '/':
 			result = num1 / num2;
-			printf("%f %c %f = %lf", num1, operator, num2, result);
+			printf("%.2f %c %.2f = %.2lf", num1, operator, num2, result);
 			break;
 
 		default:

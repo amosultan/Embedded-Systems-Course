@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to check whether a character is vowel or constant.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -20,7 +21,7 @@ int main(void)
 
 	char c;
 
-	printf("Enter an alphabet: ");
+	printf("%s", "Enter a character: ");
 
 	scanf("%c", &c);
 

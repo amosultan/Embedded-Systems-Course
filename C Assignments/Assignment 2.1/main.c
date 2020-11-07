@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to check whether a number is even or odd.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -20,7 +21,7 @@ int main(void)
 
 	int num;
 
-	printf("Enter an integer you want to check: ");
+	printf("%s", "Enter an integer you want to check: ");
 
 	scanf("%i", &num);
 

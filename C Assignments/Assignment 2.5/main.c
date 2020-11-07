@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to check whether a character is alphabet or not.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -21,7 +22,7 @@ int main(void)
 
 	char c;
 
-	printf("Enter a character: ");
+	printf("%s", "Enter a character: ");
 
 	scanf("%c", &c);
 

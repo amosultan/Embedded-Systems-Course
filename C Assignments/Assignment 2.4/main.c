@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to check whether a number is positive or negative.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -20,18 +21,18 @@ int main(void)
 
 	float num;
 
-	printf("Enter a number: ");
+	printf("%s", "Enter a number: ");
 
 	scanf("%f", &num);
 
 	if (num > 0)
-		printf("%f is positive.\n", num);
+		printf("%.2f is positive.\n", num);
 
 	else if (num < 0)
-		printf("%f is negative.\n", num);
+		printf("%.2f is negative.\n", num);
 
 	else
-		printf("You entered zero.\n");
+		puts("You entered zero.");
 
 	return 0;
 }
