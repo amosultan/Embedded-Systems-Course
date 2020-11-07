@@ -1,8 +1,9 @@
 /*
- * main.c
+ *  File Name: main.c
+ *	Description: Write a c program to add two integers.
  *
  *  Created on: Aug 26, 2020
- *      Author: Abdelrahman Sultan
+ *  Author: Abdelrahman Sultan
  */
 
 
@@ -21,7 +22,7 @@ int main(void)
 	int num1, num2;
 	long int sum;
 
-	printf("Enter two integers: ");
+	printf("%s", "Enter two integers: ");
 
 	scanf("%i %i", &num1, &num2);
 

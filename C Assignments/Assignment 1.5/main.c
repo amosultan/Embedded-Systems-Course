@@ -1,5 +1,6 @@
 /*
- * main.c
+ *  File Name: main.c
+ *	Description: Write a C program to find ASCII value of a character.
  *
  *  Created on: Aug 26, 2020
  *  Author: Abdelrahman Sultan
@@ -20,7 +21,7 @@ int main(void)
 
 	char character;
 
-	printf("Enter a character: ");
+	printf("%s", "Enter a character: ");
 
 	scanf("%c", &character);
 

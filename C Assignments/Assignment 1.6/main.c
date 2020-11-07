@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to swap two numbers.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -20,11 +21,11 @@ int main(void)
 
 	double num1, num2, temp;
 
-	printf("Enter value of first number: ");
+	printf("%s", "Enter the value of the first number: ");
 
 	scanf("%lf", &num1);
 
-	printf("Enter the value of the second number: ");
+	printf("%s", "Enter the value of the second number: ");
 
 	scanf("%lf", &num2);
 

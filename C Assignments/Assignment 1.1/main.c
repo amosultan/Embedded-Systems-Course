@@ -1,5 +1,6 @@
 /*
- * main.c
+ *  File Name: main.c
+ *  Description: Write a C Program to Print "C Programming".
  *
  *  Created on: Aug 26, 2020
  *  Author: Abdelrahman Sultan
@@ -10,7 +11,7 @@
 
 int main(void)
 {
-	printf("C Programming\n");
+	puts("C Programming\n");
 
 	return 0;
 }

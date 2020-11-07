@@ -1,8 +1,9 @@
 /*
- * main.c
+ * 	File Name: main.c
+ *	Description: Write a C program to multiply two floating point numbers.
  *
  *  Created on: Aug 26, 2020
- *      Author: Abdelrahman Sultan
+ *  Author: Abdelrahman Sultan
  */
 
 
@@ -21,13 +22,13 @@ int main(void)
 	float num1, num2;
 	double product;
 
-	printf("Enter two numbers: ");
+	printf("%s", "Enter two numbers: ");
 
 	scanf("%f %f", &num1, &num2);
 
 	product = num1 * num2;
 
-	printf("%lf", product);
+	printf("%.3lf", product);
 
 	return 0;
 }

@@ -1,5 +1,6 @@
 /*
- * 	main.c
+ * 	File Name: main.c
+ *	Description: Write a C Program to swap two numbers without a temp variable.
  *
  *  Created on: Aug 27, 2020
  *  Author: Abdelrahman Sultan
@@ -18,31 +19,33 @@ int main(void)
 
 	setvbuf(stdout, NULL, _IONBF, 0);
 
-	int num1, num2;
+	double num1, num2;
 
-	printf("Enter value of first number: ");
+	printf("%s", "Enter the value of the first number: ");
 
-	scanf("%i", &num1);
+	scanf("%lf", &num1);
 
-	printf("Enter the value of the second number: ");
+	printf("%s", "Enter the value of the second number: ");
 
-	scanf("%i", &num2);
+	scanf("%lf", &num2);
 
-	/*num1 = num1 + num2;
+	num1 = num1 + num2;
 	num2 = num1 - num2;
 	num1 = num1 - num2;
-	*/
 
 
-	 //Another way to swap 2 numbers without using temp variable
-	 num1 = num1 ^ num2;
-	 num2 = num1 ^ num2;
-	 num1 = num1 ^ num2;
+	/*
+	 * Another way to swap 2 numbers using XOR operator.
+	 * However, the numbers must be integers.
+	 *
+	 * num1 = num1 ^ num2;
+	 * num2 = num1 ^ num2;
+	 * num1 = num1 ^ num2;
+	 *
+	 */
 
-
-
-	printf("After swapping the value of the first number = %i\n"
-				"After swapping the value of the second number = %i\n", num1, num2);
+	printf("After swapping the value of the first number = %.2lf\n"
+				"After swapping the value of the second number = %.2lf\n", num1, num2);
 
 	return 0;
 }

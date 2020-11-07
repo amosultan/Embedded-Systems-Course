@@ -1,5 +1,6 @@
 /*
- * main.c
+ *  File Name: main.c
+ *	Description: Write a C Program to print an integer entered by the user.
  *
  *  Created on: Aug 26, 2020
  *  Author: Abdelrahman Sultan
@@ -20,7 +21,7 @@ int main(void)
 
 	int num;
 
-	printf("Enter an integer: ");
+	printf("%s", "Enter an integer: ");
 
 	//fflush(stdout);
 
