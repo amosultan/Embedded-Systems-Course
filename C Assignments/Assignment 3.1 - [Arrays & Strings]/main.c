@@ -27,7 +27,7 @@ int main(void)
 	for(i = 0; i < 2; i++)
 		for(j = 0; j < 2; j++)
 		{
-			printf("Enter a%u%u: ", i + 1, j + 1);
+			printf("Enter Element[%u][%u]: ", i + 1, j + 1);
 			scanf("%f", &m1[i][j]);
 		}
 
@@ -36,7 +36,7 @@ int main(void)
 	for(i = 0; i < 2; i++)
 		for(j = 0; j < 2; j++)
 		{
-			printf("Enter b%u%u: ", i + 1, j + 1);
+			printf("Enter Element[%u][%u]: ", i + 1, j + 1);
 			scanf("%f", &m2[i][j]);
 		}
 

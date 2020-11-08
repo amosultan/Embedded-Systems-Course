@@ -1,5 +1,6 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program to reverse a string without using a library function.
  *
  *  Created on: Sep 8, 2020
  *  Author: Abdelrahman Sultan
@@ -7,6 +8,7 @@
 
 
 #include <stdio.h>
+#include <string.h>
 
 int main(void)
 {
@@ -18,18 +20,20 @@ int main(void)
 
 	setvbuf(stdout, NULL, _IONBF, 0);
 
-	char str[100];
-	size_t i = 0;
+	char str[100], temp;
+	size_t i, j;
 
-	printf("Enter a string: ");
+	printf("%s", "Enter the string: ");
 	scanf("%[^\n]*c", str);
 
-	while(str[i] != '\0')
+	for (i = 0, j = (strlen(str) - 1); i < (strlen(str) / 2); i++, j--)
 	{
-		i++;
+		temp = str[i];
+		str[i] = str[j];
+		str[j] = temp;
 	}
 
-	printf("\nLength of string: %u\n", i);
+	printf("The string after reversing it is: %s", str);
 
 	return 0;
 }

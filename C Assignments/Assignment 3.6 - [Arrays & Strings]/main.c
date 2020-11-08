@@ -1,5 +1,6 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program to find the frequency of a character in a string.
  *
  *  Created on: Sep 8, 2020
  *  Author: Abdelrahman Sultan
@@ -19,20 +20,20 @@ int main(void)
 
 	setvbuf(stdout, NULL, _IONBF, 0);
 
-	char str[100], temp;
-	size_t i, j;
+	char str[100], character;
+	size_t i, freq = 0;
 
-	printf("Enter the string: ");
-	scanf("%[^\n]*c", str);
+	printf("%s", "Enter a string: ");
+	fgets(str, 100, stdin);
 
-	for (i = 0, j = (strlen(str) - 1); i < (strlen(str) / 2); i++, j--)
-	{
-		temp = str[i];
-		str[i] = str[j];
-		str[j] = temp;
-	}
+	printf("Enter a character to find its frequency: ");
+	scanf("%c", &character);
 
-	printf("Reverse the string is: %s", str);
+	for (i = 0; i < strlen(str); i++)
+		if(str[i] == character)
+			freq++;
+
+	printf("Frequency of %c is %u\n", character, freq);
 
 	return 0;
 }

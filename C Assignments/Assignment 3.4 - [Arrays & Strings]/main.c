@@ -1,5 +1,6 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program to insert an element in an array.
  *
  *  Created on: Sep 8, 2020
  *  Author: Abdelrahman Sultan
@@ -21,18 +22,20 @@ int main(void)
 	int arr[100], element;
 	size_t i, nElements, location;
 
-	printf("Enter number of elements: ");
+	printf("%s", "Enter the number of elements: ");
 	scanf("%u", &nElements);
 
 	for(i = 0; i < nElements; i++)
+	{
+		printf("Element number %u: ", i+1);
 		scanf("%d", &arr[i]);
-
-	printf("Enter the element to be inserted: ");
+	}
+	printf("%s", "Enter the element to be inserted: ");
 	scanf("%d", &element);
 
 	do
 	{
-		printf("Enter the location: ");
+		printf("%s", "Enter the location: ");
 		scanf("%u", &location);
 	}
 	while (location <= 0);

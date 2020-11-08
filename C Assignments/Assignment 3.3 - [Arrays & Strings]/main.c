@@ -1,5 +1,6 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program that takes a matrix as input from the user and finds its transpose.
  *
  *  Created on: Sep 6, 2020
  *  Author: Abdelrahman Sultan
@@ -22,19 +23,19 @@ int main(void)
 
 	do
 	{
-		printf("Enter the row and column of the matrix: ");
+		printf("%s", "Enter the row and column of the matrix: ");
 		scanf("%u %u", &row, &col);
 	}
 	while (row <=0 && col <=0);
 
 	int m[row][col], transMat[col][row];
 
-	printf("\nEnter the elements of the matrix:\n");
+	printf("%s", "\nEnter the elements of the matrix:\n");
 
 	for(i = 0; i < row; i++)
 		for(j = 0; j < col; j++)
 		{
-			printf("Enter element a%u%u: ", i + 1, j + 1);
+			printf("Enter element[%u][%u]: ", i + 1, j + 1);
 			scanf("%d", &m[i][j]);
 		}
 

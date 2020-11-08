@@ -1,5 +1,6 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program to search for an element in an array.
  *
  *  Created on: Sep 8, 2020
  *  Author: Abdelrahman Sultan
@@ -21,15 +22,18 @@ int main(void)
 	size_t num, i, flag = 0;
 	int target;
 
-	printf("Enter the number of elements: ");
+	printf("%s", "Enter the number of elements: ");
 	scanf("%u", &num);
 
 	int arr[num];
 
 	for(i = 0; i < num; i++)
+	{
+		printf("Enter element number %u: ", i+1);
 		scanf("%d", &arr[i]);
+	}
 
-	printf("Enter the element to be searched: ");
+	printf("%s", "Enter the element to be searched: ");
 	scanf("%d", &target);
 
 	for (i = 0; i < num; i++)
@@ -44,7 +48,7 @@ int main(void)
 	if (flag == 1)
 		printf("Number found at location: %u\n", i + 1);
 	else
-		printf("Not Found\n");
+		puts("Not Found");
 
 	return 0;
 }

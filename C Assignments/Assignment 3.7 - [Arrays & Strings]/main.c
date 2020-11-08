@@ -1,7 +1,8 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program to find the length of a string.
  *
- *  Created on: Sep 6, 2020
+ *  Created on: Sep 8, 2020
  *  Author: Abdelrahman Sultan
  */
 
@@ -18,26 +19,18 @@ int main(void)
 
 	setvbuf(stdout, NULL, _IONBF, 0);
 
-	int n;
-	size_t i;
+	char str[100];
+	size_t i = 0;
 
-	do
+	printf("%s", "Enter a string: ");
+	scanf("%[^\n]*c", str);
+
+	while(str[i] != '\0')
 	{
-		printf("Enter the numbers of data: ");
-		scanf("%d", &n);
-	}
-	while (n <= 0);
-
-	float arr[n], sum = 0.0;
-
-	for(i = 1; i <= n; i++)
-	{
-		printf("%u. Enter number: ", i);
-		scanf("%f", &arr[i-1]);
-		sum += arr[i-1];
+		i++;
 	}
 
-	printf("Average = %.2f\n", sum/n);
+	printf("Length of string: %u\n", i);
 
 	return 0;
 }
