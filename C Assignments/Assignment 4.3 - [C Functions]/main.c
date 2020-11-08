@@ -1,7 +1,6 @@
 /*
- *  main.c
- *
- *  C program to reverse a sentence using recursion
+ *  File Name: main.c
+ *	Description: C program to reverse a sentence using recursion.
  *
  *  Created on: Sep 9, 2020
  *  Author: Abdelrahman Sultan
@@ -30,7 +29,7 @@ int main(void)
 	puts("Enter a sentence:");
 	scanf("%[^\n]*s", str);
 
-	printf("%s", strRev(str));
+	printf("The string after reversing it is: %s", strRev(str));
 
 	return 0;
 }

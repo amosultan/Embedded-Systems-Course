@@ -1,7 +1,6 @@
 /*
- *  main.c
- *
- *  Find prime numbers between two integers.
+ *  File Name: main.c
+ *	Description: Find prime numbers between two integers using a user defined function.
  *
  *  Created on: Sep 9, 2020
  *  Author: Abdelrahman Sultan

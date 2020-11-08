@@ -1,7 +1,6 @@
 /*
- *  main.c
- *
- *  Calculate factorial of a number using recursion
+ *  File Name: main.c
+ *	Description: Calculate factorial of a number using recursion.
  *
  *  Created on: Sep 9, 2020
  *  Author: Abdelrahman Sultan

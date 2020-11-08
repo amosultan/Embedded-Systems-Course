@@ -1,7 +1,6 @@
 /*
- *  main.c
- *
- *  C program to calculate the power of a number using recursion
+ *  File Name: main.c
+ *	Description: C program to calculate the power of a number using recursion.
  *
  *  Created on: Sep 9, 2020
  *  Author: Abdelrahman Sultan
