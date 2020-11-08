@@ -1,5 +1,6 @@
 /*
- *  main.c
+ *  File Name: main.c
+ *	Description: Write a C program to find the sum of two matrices of order 2 by 2 using arrays.
  *
  *  Created on: Sep 6, 2020
  *  Author: Abdelrahman Sultan
