@@ -11,7 +11,7 @@
 
 int main(void)
 {
-	puts("C Programming\n");
+	puts("C Programming");
 
 	return 0;
 }
