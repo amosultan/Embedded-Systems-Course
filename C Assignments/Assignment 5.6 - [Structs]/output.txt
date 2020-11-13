@@ -1,0 +1,10 @@
+File Name: file.txt
+Description: Find the output of the program
+
+Created on: Nov 13, 2020
+Author: Abdelrahman Sultan
+ 
+The output of the program is:
+
+size of union = 32
+size of structure = 40
