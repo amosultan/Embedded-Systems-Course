@@ -6,3 +6,8 @@ Debug
 .settings
 .cproject
 .project
+
+# Proteus Simulation meta and settings files
+
+.pdsbak
+.workspace
