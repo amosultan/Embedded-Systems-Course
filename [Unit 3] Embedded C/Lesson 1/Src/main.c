@@ -2,7 +2,7 @@
  ********************************************************************************************
  * @file           : main.c
  * @author         : Abdelrahman Sulan
- * @brief          : Toggling and LED with an arbitrary delay using STM32F103C6 uController.
+ * @brief          : Toggling an LED with an arbitrary delay using STM32F103C6 uController.
  ********************************************************************************************
  */
 
