@@ -9,5 +9,5 @@ Debug
 
 # Proteus Simulation meta and settings files
 
-.pdsbak
-.workspace
+*.pdsbak
+*.workspace
