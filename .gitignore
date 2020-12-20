@@ -9,10 +9,10 @@ Debug
 
 # Output files
 
-.o
-.elf
-.bin
-.hex
+*.o
+*.elf
+*.bin
+*.hex
 
 # Proteus Simulation meta and settings files
 
