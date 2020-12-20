@@ -7,6 +7,13 @@ Debug
 .cproject
 .project
 
+# Output files
+
+.o
+.elf
+.bin
+.hex
+
 # Proteus Simulation meta and settings files
 
 *.pdsbak
