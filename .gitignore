@@ -1,9 +1,11 @@
-Debug
+#Output Folders
 
-# Eclipse IDE meta and settings folders
+Debug/
 
-.metadata
-.settings
+# Eclipse based IDEs meta and settings files or folders
+
+.metadata/
+.settings/
 .cproject
 .project
 
