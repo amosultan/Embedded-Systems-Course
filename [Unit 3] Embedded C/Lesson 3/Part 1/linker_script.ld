@@ -1,0 +1,27 @@
+ENTRY(_reset)
+
+MEMORY
+{
+    FLASH (RX): ORIGIN = 0x08000000, LENGTH = 32K
+    SRAM (RWX): ORIGIN = 0x20000000, LENGTH = 10K
+}
+
+SECTIONS
+{
+    .text :
+    {
+        *(.vectors*)
+        *(.text*)
+        *(.rodata)
+    }> FLASH
+
+    .data :
+    {
+        *(.data)
+    }> FLASH
+
+    .bss :
+    {
+        *(.bss)
+    }> SRAM
+}
