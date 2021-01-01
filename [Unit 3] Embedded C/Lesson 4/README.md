@@ -32,4 +32,6 @@ The following gif shows the signal on pin 3 of portf using the logic analyzer em
 
 ## Runing the code on the physical board
 
-**TODO**
+And finally here is a link to a video showing the code running on the actual bored.
+
+[Video Link](https://drive.google.com/file/d/15nPoRo0yCUZeJ0dRVaRC7FxFBR3quFte/view?usp=sharing)
