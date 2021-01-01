@@ -1,0 +1,15 @@
+         U _ebss
+         U _edata
+         U _etext
+00000000 T _reset
+         U _sbss
+         U _sdata
+         U _stack_top
+00000078 W BusFault_Handler
+00000078 T Default_Handler
+00000078 W HardFault_Handler
+         U main
+00000078 W MemManage_Handler
+00000078 W NMI_Handler
+00000078 W UsageFault_Handler
+00000000 D vectors

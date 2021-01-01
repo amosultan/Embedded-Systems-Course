@@ -1,0 +1,17 @@
+20000058 B _ebss
+20000004 D _edata
+08000110 T _etext
+0800001c T _reset
+20000008 B _sbss
+20000000 D _sdata
+20001058 B _stack_top
+08000094 W BusFault_Handler
+08000094 T Default_Handler
+20000008 B gVariable
+08000094 W HardFault_Handler
+080000a0 T main
+08000094 W MemManage_Handler
+08000094 W NMI_Handler
+20000000 D ODR
+08000094 W UsageFault_Handler
+08000000 T vectors
