@@ -1,0 +1,4 @@
+08000040 T _reset
+0800004c T main
+080000bc D ODR
+08000046 t Vector_Handler
