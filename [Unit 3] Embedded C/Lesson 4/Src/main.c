@@ -30,14 +30,15 @@ volatile R_ODR_t *ODR = (volatile R_ODR_t *) (PORTF_BASE + 0x3FC);
 
 int main(void)
 {
-		vuint32 i;
+    vuint32 i;
 
     SYSCTL_RCGC2_R = 0x20;
-	
-		for(i = 0; i < 200; i++);
     
-		GPIOA_PORTF_DIR_R |= 1 << 3;
+    for(i = 0; i < 200; i++);
+    
+    GPIOA_PORTF_DIR_R |= 1 << 3;
     GPIO_PORTF_DEN_R |= 1 << 3;
+
     while(1)
     {
         /*Toggle pin 13 of port A*/
