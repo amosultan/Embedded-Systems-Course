@@ -26,7 +26,7 @@ arm-none-eabi-as.exe -mcpu=arm926ej-s startup.s -o startup.o
 ```
 ![Compiling the startup file](./img/compiling_startup_file.png)
 
-* **Linking the the object files and generating the .elf file and the .map file:**
+* **Linking the object files and generating the .elf file and the .map file:**
 
 ```bash
 arm-none-eabi-ld.exe -T linker_script.ld startup.o app.o uart.o -o learn-in-depth.elf -Map=map_file.map
@@ -54,7 +54,7 @@ qemu-system-arm -M versatilepb -m 128M -nographic -kernel learn-in-depth.bin
 
 ## Analyzing the output files:
 
-* **Chekcing the relocatable memory sections of the C files:**
+* **Checking the relocatable memory sections of the C files:**
 ```bash
 arm-none-eabi-objdump.exe -h app.o
 arm-none-eabi-objdump.exe -h uart.o
@@ -67,7 +67,7 @@ arm-none-eabi-objdump.exe -h startup.o
 ```
 ![Startup file relocatable image](./img/startup_relocatable_img.png)
 
-* **Checking the symbol tabel of all object files before linkage:**
+* **Checking the symbol table of all object files before linkage:**
 ```bash
 arm-none-eabi-nm.exe app.o
 arm-none-eabi-nm.exe uart.o
